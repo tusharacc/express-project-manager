@@ -1,6 +1,11 @@
 language: node_js
 node_js:
- - "node"
+- "node"
  
+required: sudo
+
 services:
-  - docker
+- docker
+
+scrip:
+- echo "Hello World"
