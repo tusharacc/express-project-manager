@@ -7,5 +7,11 @@ required: sudo
 services:
 - docker
 
-scrip:
+deploy:
+  provider: heroku
+  app: whispering-shelf-16302
+  api_key:
+    secure: "bac688af-1a37-49b2-bfe1-8846ccd02ce0"
+
+script:
 - echo "Hello World"
